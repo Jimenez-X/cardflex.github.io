@@ -1,0 +1,41 @@
+.contenedor {
+    height: 300px;
+    background-color: greenyellow;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    gap: 5px;
+    
+}
+.cajas {
+    width: 200px; 
+    border: 1px black solid;
+    height: 100px;
+    background-color: brown;
+    color: white;
+}
+
+.contenedor {
+    height: 300px;
+    background-color: greenyellow;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 5px;
+    
+
+
+}
+
+.cajas {
+    width: 200px; 
+    border: 1px black solid;
+    height: 100px;
+    background-color: brown;
+    color: white;
+}
+.caja10{
+  background-color: blueviolet;
+  height: 50px;
+  order: -1;
+  align-self: flex-end;
